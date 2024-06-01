@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FBDE02C2C0B625600D70260 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 0FBDE02B2C0B625600D70260 /* RealityKitContent */; };
+		0FBDE02E2C0B625600D70260 /* ARInventoryVisionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBDE02D2C0B625600D70260 /* ARInventoryVisionApp.swift */; };
+		0FBDE0302C0B625600D70260 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBDE02F2C0B625600D70260 /* ContentView.swift */; };
+		0FBDE0322C0B625700D70260 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FBDE0312C0B625700D70260 /* Assets.xcassets */; };
+		0FBDE0352C0B625700D70260 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FBDE0342C0B625700D70260 /* Preview Assets.xcassets */; };
 		0FE7146D2C0B5B9D00EE4579 /* ARInventoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE7146C2C0B5B9D00EE4579 /* ARInventoryApp.swift */; };
 		0FE7146F2C0B5B9D00EE4579 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE7146E2C0B5B9D00EE4579 /* ContentView.swift */; };
 		0FE714712C0B5B9E00EE4579 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FE714702C0B5B9E00EE4579 /* Assets.xcassets */; };
@@ -14,6 +19,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0FBDE0272C0B625600D70260 /* ARInventoryVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARInventoryVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FBDE02A2C0B625600D70260 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		0FBDE02D2C0B625600D70260 /* ARInventoryVisionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARInventoryVisionApp.swift; sourceTree = "<group>"; };
+		0FBDE02F2C0B625600D70260 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0FBDE0312C0B625700D70260 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0FBDE0342C0B625700D70260 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0FBDE0362C0B625700D70260 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0FE714692C0B5B9D00EE4579 /* ARInventory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARInventory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FE7146C2C0B5B9D00EE4579 /* ARInventoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARInventoryApp.swift; sourceTree = "<group>"; };
 		0FE7146E2C0B5B9D00EE4579 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -22,6 +34,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0FBDE0242C0B625600D70260 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FBDE02C2C0B625600D70260 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0FE714662C0B5B9D00EE4579 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -32,10 +52,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0FBDE0282C0B625600D70260 /* ARInventoryVision */ = {
+			isa = PBXGroup;
+			children = (
+				0FBDE02D2C0B625600D70260 /* ARInventoryVisionApp.swift */,
+				0FBDE02F2C0B625600D70260 /* ContentView.swift */,
+				0FBDE0312C0B625700D70260 /* Assets.xcassets */,
+				0FBDE0362C0B625700D70260 /* Info.plist */,
+				0FBDE0332C0B625700D70260 /* Preview Content */,
+			);
+			path = ARInventoryVision;
+			sourceTree = "<group>";
+		};
+		0FBDE0292C0B625600D70260 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				0FBDE02A2C0B625600D70260 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		0FBDE0332C0B625700D70260 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0FBDE0342C0B625700D70260 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		0FE714602C0B5B9D00EE4579 = {
 			isa = PBXGroup;
 			children = (
 				0FE7146B2C0B5B9D00EE4579 /* ARInventory */,
+				0FBDE0282C0B625600D70260 /* ARInventoryVision */,
+				0FBDE0292C0B625600D70260 /* Packages */,
 				0FE7146A2C0B5B9D00EE4579 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				0FE714692C0B5B9D00EE4579 /* ARInventory.app */,
+				0FBDE0272C0B625600D70260 /* ARInventoryVision.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +121,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0FBDE0262C0B625600D70260 /* ARInventoryVision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FBDE0392C0B625700D70260 /* Build configuration list for PBXNativeTarget "ARInventoryVision" */;
+			buildPhases = (
+				0FBDE0232C0B625600D70260 /* Sources */,
+				0FBDE0242C0B625600D70260 /* Frameworks */,
+				0FBDE0252C0B625600D70260 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARInventoryVision;
+			packageProductDependencies = (
+				0FBDE02B2C0B625600D70260 /* RealityKitContent */,
+			);
+			productName = ARInventoryVision;
+			productReference = 0FBDE0272C0B625600D70260 /* ARInventoryVision.app */;
+			productType = "com.apple.product-type.application";
+		};
 		0FE714682C0B5B9D00EE4579 /* ARInventory */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0FE714772C0B5B9E00EE4579 /* Build configuration list for PBXNativeTarget "ARInventory" */;
@@ -97,6 +168,9 @@
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
+					0FBDE0262C0B625600D70260 = {
+						CreatedOnToolsVersion = 15.4;
+					};
 					0FE714682C0B5B9D00EE4579 = {
 						CreatedOnToolsVersion = 15.4;
 					};
@@ -116,11 +190,21 @@
 			projectRoot = "";
 			targets = (
 				0FE714682C0B5B9D00EE4579 /* ARInventory */,
+				0FBDE0262C0B625600D70260 /* ARInventoryVision */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0FBDE0252C0B625600D70260 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FBDE0352C0B625700D70260 /* Preview Assets.xcassets in Resources */,
+				0FBDE0322C0B625700D70260 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0FE714672C0B5B9D00EE4579 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -133,6 +217,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0FBDE0232C0B625600D70260 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FBDE0302C0B625600D70260 /* ContentView.swift in Sources */,
+				0FBDE02E2C0B625600D70260 /* ARInventoryVisionApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0FE714652C0B5B9D00EE4579 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -145,6 +238,62 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		0FBDE0372C0B625700D70260 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ARInventoryVision/Preview Content\"";
+				DEVELOPMENT_TEAM = Y4R5JS3HL6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aydinkaya.ARInventoryVision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = xros;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 1.2;
+			};
+			name = Debug;
+		};
+		0FBDE0382C0B625700D70260 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ARInventoryVision/Preview Content\"";
+				DEVELOPMENT_TEAM = Y4R5JS3HL6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aydinkaya.ARInventoryVision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = xros;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 1.2;
+			};
+			name = Release;
+		};
 		0FE714752C0B5B9E00EE4579 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -325,6 +474,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0FBDE0392C0B625700D70260 /* Build configuration list for PBXNativeTarget "ARInventoryVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FBDE0372C0B625700D70260 /* Debug */,
+				0FBDE0382C0B625700D70260 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		0FE714642C0B5B9D00EE4579 /* Build configuration list for PBXProject "ARInventory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -344,6 +502,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0FBDE02B2C0B625600D70260 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0FE714612C0B5B9D00EE4579 /* Project object */;
 }
