@@ -10,10 +10,12 @@ import SwiftUI
 @main
 struct ARInventoryApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
-
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                InventoryListView()
+            }
         }
     }
 }

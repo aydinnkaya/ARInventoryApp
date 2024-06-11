@@ -16,7 +16,7 @@ class InventoryListViewModel: ObservableObject {
     @MainActor
     func listenToItems() {
         Firestore.firestore().collection("items")
-            .order(by: "name")
+                .order(by: "name")
             .limit(toLast: 100)
             .addSnapshotListener { snapshot, error in
                 guard let snapshot else {
@@ -32,6 +32,7 @@ class InventoryListViewModel: ObservableObject {
                     self.items = items
                 }
             }
+        
     }
     
 }
